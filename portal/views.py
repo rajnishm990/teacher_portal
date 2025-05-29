@@ -17,7 +17,7 @@ from .models import Student
 from .forms import TeacherLoginForm, StudentForm, StudentEditForm
 
 def teacher_login(request):
-    """Handle teacher login with proper error handling"""
+    
     if request.user.is_authenticated:
         return redirect('portal:dashboard')
     
