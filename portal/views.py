@@ -44,7 +44,7 @@ def teacher_logout(request):
 
 @login_required
 def dashboard(request):
-    """Display student listing with search and pagination"""
+    """Display student listing"""
     search_query = request.GET.get('search', '').strip()
     students_list = Student.objects.filter(teacher=request.user)
     
