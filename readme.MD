@@ -1,5 +1,3 @@
-## Setup Instructions (README.md)
-
 # Teacher Portal - Django Application
 
 
