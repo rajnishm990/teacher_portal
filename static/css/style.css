@@ -13,7 +13,7 @@ body {
     background-color: var(--light-color);
 }
 
-/* Login page styles */
+
 .login-container {
     min-height: 100vh;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -35,7 +35,7 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-/* Table improvements */
+
 .table th {
     border-top: none;
     font-weight: 600;
@@ -53,7 +53,7 @@ body {
     transform: translateY(-1px);
 }
 
-/* Button improvements */
+
 .btn {
     border-radius: 8px;
     font-weight: 500;
@@ -70,13 +70,13 @@ body {
     font-size: 0.8rem;
 }
 
-/* Badge improvements */
+
 .badge {
     font-weight: 500;
     padding: 0.5em 0.75em;
 }
 
-/* Form improvements */
+
 .form-control {
     border-radius: 8px;
     border: 1px solid #dee2e6;
@@ -88,7 +88,7 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
 }
 
-/* Modal improvements */
+
 .modal-content {
     border-radius: 15px;
     border: none;
@@ -104,20 +104,20 @@ body {
     padding: 1.5rem;
 }
 
-/* Alert improvements */
+
 .alert {
     border-radius: 10px;
     border: none;
     font-weight: 500;
 }
 
-/* Navbar improvements */
+
 .navbar-brand {
     font-weight: 600;
     font-size: 1.25rem;
 }
 
-/* Animation classes */
+
 .fade-in {
     animation: fadeIn 0.5s ease-in;
 }
@@ -143,7 +143,7 @@ body {
     100% { transform: rotate(360deg); }
 }
 
-/* Responsive improvements */
+
 @media (max-width: 768px) {
     .container {
         padding: 0 15px;
